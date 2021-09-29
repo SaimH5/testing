@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.mainHeader{
+    /* height: 100%; */
+    width: 100%;
+    position: relative;
+    /* top: 0; */
+}
+
+.navMenu{
+    width: 100%;
+    height: 40px;
+    padding: 10px 0 10px 10px;
+    margin-top: 0;
+    padding-right: 100px;
+    position: relative;
+    text-align: right;
+    border-bottom: 2px solid #777;
+    /* right: 40%; */
+    font-size: 0px;
+    background-color: #222;
+}
+
+.navMenu li{
+    list-style-type: none;
+    display: inline;
+    font-size: 16px;
+}
+
+.navMenu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #666;
+}
+
+.navMenu a:hover{
+    background-color: #333;
+}
+
+#fP{
+    margin-top: 20px;
+    /* position: relative;
+    top: 250px;  */
+}
+
+p{
+    margin-left: 10px;
+}
+
+/* #clickie{
+    margin-left: 10px;
+}
+
+#cover{
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color: rgba(117, 117, 117, 0.4);
+} */
+
+#itemsCont{
+    padding: 10px 0 0 10px;
+}
+
+.formCont{
+    /* position: relative; */
+    padding: 10px 0 0 10px;
+}
+
+.item{
+    resize: none;
+    cursor:default;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.item:hover{
+}
+
+.item:focus{
+    outline:none;  
+}
+
+#newItem{
+    cursor:text;
+    /* overflow: hidden; */
+}
