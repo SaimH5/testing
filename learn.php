@@ -1,6 +1,7 @@
 <?php
-	function($num1, $num2){
+	function sum($num1, $num2){
 		return $num1 + $num2;
 	}
 	
+	echo sum(1,2);
 ?>
